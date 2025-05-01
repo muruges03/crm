@@ -1,0 +1,32 @@
+<?php
+
+/**
+ * Created by Reliese Model.
+ */
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+
+class Session extends Model
+{
+	protected $table = 'sessions';
+	
+	public $timestamps = false;
+
+	protected $casts = [
+		'user_id' => 'int',
+		'entity_id' => 'int',
+		'last_activity' => 'int'
+	];
+
+	protected $fillable = [
+		'user_id',
+		'entity_id',
+		'ip_address',
+		'user_agent',
+		'payload',
+		'last_activity'
+	];
+}

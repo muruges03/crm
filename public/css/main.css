@@ -1,0 +1,441 @@
+.menu-bg {
+    background: #052862;
+}
+
+
+.hover\:bg-active:hover {
+    --tw-bg-opacity: 1;
+    background: repeating-linear-gradient(45deg, black, transparent 100px) !important;
+}
+
+.bg-active {
+    --tw-bg-opacity: 1;
+    /*background-color: #084BB8 !important;*/
+    background: repeating-linear-gradient(45deg, black, transparent 100px) !important;
+}
+
+
+h2 {
+    color: #476b9c;
+}
+
+
+th {
+    color: #fff;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+@media (min-width: 640px) {
+    .md\:h-textbox {
+        height: 35px;
+        padding: 4px;
+    }
+}
+
+@media (min-width: 640px) {
+    .md\:h-select {
+        /* width: 150px; */
+        height: 35px;
+        padding: 1px 4px 4px 4px;
+        font-family: Arial, Helvetica, sans-serif;
+        /* border: 1px; */
+    }
+}
+
+
+legend {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    color: #1c528b;
+    font-size: 18px;
+}
+
+
+.header {
+    margin-left: 277px;
+    width: 103px;
+    background-color: #e8f1ff;
+    border: 1px solid #dfe5e4;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 0 solid #bae2ca;
+    margin-top: 10px;
+    z-index: 999;
+    margin-bottom: -1px;
+}
+
+select {
+
+    background-position: right 0.5rem center;
+    background-repeat: no-repeat;
+    background-size: 1.5em 1.5em;
+    padding-right: 2.5rem;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+}
+
+input,
+input::placeholder,
+textarea::placeholder {
+    font: 10px !important;
+    font-weight: 500;
+}
+
+
+[type='text'] .multiselect__input {
+    padding: 0px !important;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 28px !important;
+    background-color: #fff;
+    padding: 2px 8px !important;
+    font-size: 12px !important;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.combobox-input {
+    padding: 2px 8px !important;
+}
+
+select {
+    /* background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%2371717a' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e); */
+    background-position: right 0.5rem center;
+    background-repeat: no-repeat;
+    height: 30px !important;
+    background-size: 1.5em 1.5em;
+    padding-right: 2.51rem !important;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+}
+
+/* .multiselect__input {
+    padding: -2px !important;
+    position: absolute !important;
+} */
+
+/* table {
+    border-collapse: inherit !important;
+} */
+
+
+/* css */
+
+
+/* [type='text'], [type='email'], [type='url'], [type='password'], [type='number'], [type='date'], [type='datetime-local'], [type='month'], [type='search'], [type='tel'], [type='time'], [type='week'], [multiple], textarea, select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    border-color: #71717a;
+    border-width: 0px !important;
+    border-radius: 0px;
+    padding-top: 0rem !important;
+    padding-right: 0.5rem !important;
+    padding-bottom: 0rem !important;
+    padding-left: 0rem !important;
+    font-size: 11px !important;
+    line-height: 1.5rem;
+    --tw-shadow: 0 0 #0000;
+} */
+
+
+.multiselect__single {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+
+}
+
+.multiselect__input, .multiselect__single {
+    position: relative;
+    display: inline-block;
+    min-height: 20px;
+    line-height: 20px;
+    border: none;
+    border-radius: 3px;
+    background: #fff;
+    padding: 0 0 0 5px;
+    width: 100%;
+    font-size: 11px !important;
+    transition: border .1s ease;
+    box-sizing: border-box;
+    margin-bottom: 0px !important;
+    vertical-align: top;
+}
+
+.multiselect__tags {
+    /* height: 30px !important; */
+    min-height: 30px !important;
+    display: block !important;
+    padding: 5px 23px 0px 5px !important;
+    border-radius: 4px !important;
+    --tw-border-opacity: 1 !important;
+    border-color: rgb(212 212 216 / var(--tw-border-opacity)) !important;
+    background: #fff;
+    font-size: 11px !important;
+    font-weight: 500 !important;
+
+    /* padding: 2px 38px 2px 4px !important; */
+
+}
+
+.multiselect__select {
+    position: absolute;
+    width: 15px !important;
+    height: 15px !important;
+    right: 6px !important;
+    top: 6px !important;
+    color: #eee !important;
+    padding: 2px 2px !important;
+    text-align: center !important;
+    transition: transform .2s ease;
+    /* background-image: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' class='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='currentColor' stroke-width='2'><path stroke-linecap='round' stroke-linejoin='round' d='M5 13l4 4L19 7'/> </svg>") !important; */
+    background-image: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' class='h-6 w-6 text-gray-300 bg-gray-300' fill='none' viewBox='0 0 20 20' stroke='grey' stroke-width='2'><path stroke-linecap='round' stroke-linejoin='round' d='M8 9l4-4 4 4m0 6l-4 4-4-4' /></svg>") !important;
+}
+
+.multiselect--active .multiselect__select {
+    transform: none !important;
+}
+
+.multiselect .multiselect__tags .multiselect__input {
+
+    outline: none !important;
+    outline-offset: 2px;
+    --tw-ring-inset: var(--tw-empty,
+
+        );
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff !important;
+    --tw-ring-color: #ffffff !important;
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+    border-color: #fff !important;
+
+}
+
+.multiselect__option {
+    display: block;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.4rem !important;
+    padding-left: 2rem !important;
+    padding-right: 1rem !important;
+    /* padding: 8px 8px 3px 8px !important; */
+    min-height: 30px !important;
+    /* line-height: 16px; */
+    text-decoration: none;
+    text-transform: none;
+    font-weight: 500 !important;
+    /* vertical-align: middle; */
+    position: relative;
+    cursor: pointer;
+    /* white-space: nowrap; */
+}
+
+.multiselect--active {
+    border-radius: 4px !important;
+    outline: none !important;
+    outline-offset: 4px !important;
+    --tw-ring-inset: var(--tw-empty,
+
+        );
+    --tw-ring-offset-width: 1px;
+    --tw-ring-offset-color: #a3b5dc !important;
+    --tw-ring-color: #a3b5dc !important;
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+    border-color: #a3b5dc !important;
+
+}
+
+.multiselect {
+    box-sizing: content-box;
+    display: block;
+    position: relative;
+    width: 100%;
+    font-size: 12px !important;
+    /* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="h-5 w-5 text-gray-400"><path fill-rule="evenodd" d="M10 3a1 1 0 01.707.293l3 3a1 1 0 01-1.414 1.414L10 5.414 7.707 7.707a1 1 0 01-1.414-1.414l3-3A1 1 0 0110 3zm-3.707 9.293a1 1 0 011.414 0L10 14.586l2.293-2.293a1 1 0 011.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg> */
+    /* border: 1px solid rgb(156 163 175); */
+    min-height: 30px !important;
+    text-align: left;
+    color: #35495e;
+}
+
+.multiselect__content-wrapper {
+    margin: 5px 0px !important;
+    overflow-y: auto !important;
+    max-height: 150px !important;
+    overflow-x: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+
+}
+
+.multiselect__option--selected.multiselect__option--highlight {
+    background-color: rgb(57, 58, 117) !important;
+    color: #fff !important;
+
+    /* position: absolute !important;
+    background-repeat: no-repeat !important;
+
+    background-image: url("/images/checkmark.png") !important; */
+}
+
+.multiselect__option--highlight {
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(75 95 137 / var(--tw-bg-opacity)) !important;
+}
+
+.multiselect__option--selected {
+    /* background: #f3f3f3; */
+    /* color: #960e0e; */
+    font-weight: 700 !important;
+}
+
+.multiselect__option--highlight:after {
+    /* content: '' !important; */
+    /* background: #908ead !important; */
+    /* color: rgb(148, 7, 7) !important; */
+
+}
+
+.multiselect__option--selected.multiselect__option--highlight:after {
+    background: none !important;
+    content: '' !important;
+    position: absolute !important;
+    left: 1px !important;
+    top: 3px !important;
+    width: 24px !important;
+    height: 24px !important;
+    bottom: 0px !important;
+    background-repeat: no-repeat !important;
+    background-image: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' class='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='white' stroke-width='2'><path stroke-linecap='round' stroke-linejoin='round' d='M5 13l4 4L19 7'/> </svg>") !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.multiselect__option--selected:after {
+    content: '' !important;
+    position: absolute !important;
+    left: 1px !important;
+    top: 3px !important;
+    width: 24px !important;
+    height: 24px !important;
+    bottom: 0px !important;
+    background-repeat: no-repeat !important;
+    background-image: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' class='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='currentColor' stroke-width='2'><path stroke-linecap='round' stroke-linejoin='round' d='M5 13l4 4L19 7'/> </svg>") !important;
+    color: rgb(48, 45, 90) !important;
+}
+
+
+.multiselect__placeholder {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    margin-bottom: 0px !important;
+}
+
+.multiselect__select:before {
+    position: relative !important;
+    right: 0px !important;
+    top: 0px !important;
+    color: rgb(184, 47, 47);
+    margin-top: 0px !important;
+    border-style: solid;
+    border-width: 5px !important;
+    border-color: none !important;
+    content: none !important;
+
+}
+
+.multiselect__option--highlight::after {
+    content: "" !important;
+    /* background: #41b883; */
+    color: white;
+}
+
+.dp__input_focus {
+    /* outline: none !important;
+    outline-offset: 4px !important;
+    border-color: #9fb0d4 !important;
+    --tw-ring-offset-width: 0px;
+    box-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color), var(--tw-ring-shadow); */
+
+    border-radius: 4px !important;
+    outline: none !important;
+    outline-offset: 4px !important;
+    --tw-ring-inset: var(--tw-empty,
+
+        );
+    --tw-ring-offset-width: 1px;
+    --tw-ring-offset-color: #5476c0 !important;
+    --tw-ring-color: #5476c0 !important;
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+    border-color: #5476c0 !important;
+}
+
+textarea {
+    padding: 2px 8px !important;
+    font-weight: 600 !important;
+    font-size: 11px !important;
+
+}
+
+
+.dp__input {
+    background-color: var(--dp-background-color);
+    border-radius: 4px !important;
+    font-family: -apple-system, blinkmacsystemfont, "Segoe UI", roboto, oxygen, ubuntu, cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    border: 1px solid RGB(212, 212, 216) !important;
+    outline: none;
+    transition: border-color .2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    width: 100%;
+    font-size: 12px !important;
+    line-height: 1.5rem;
+    padding: 2px 30px !important;
+    color: var(--dp-text-color);
+    box-sizing: border-box;
+}
+
+thead {
+    background: #0d628bbf;
+}
+
+h1 {
+    color: #4087d8;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+
+}
+
+.svg-icon {
+    color: #7ea5e8;
+}
+
+.tr-bg-color {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 240, 240, var(--tw-bg-opacity)) !important;
+}
